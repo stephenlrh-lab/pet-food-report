@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">全球宠物零食数据来源与点评关键词地图</title>
+  <desc id="desc">按国家、销售平台、社交平台和热门产品整理的宠物零食点评关键词云。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .panel { fill: #ffffff; stroke: #e5dfd1; stroke-width: 1.4; }
+      .title { font: 800 44px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #17201c; }
+      .sub { font: 500 18px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #5e6962; }
+      .region { font: 800 24px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #17201c; }
+      .platform { font: 700 15px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #2367a2; }
+      .hint { font: 600 14px "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; fill: #5e6962; }
+      .hot { fill: #d99a2b; font-weight: 850; }
+      .pos { fill: #2f7d5c; font-weight: 800; }
+      .neg { fill: #a83f5f; font-weight: 850; }
+      .cat { fill: #2367a2; font-weight: 800; }
+      .neu { fill: #5e6962; font-weight: 700; }
+      text { font-family: "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1600" height="1100"/>
+
+  <text x="60" y="72" class="title">全球宠物零食数据来源与点评关键词地图</text>
+  <text x="60" y="108" class="sub">文字越大表示跨平台出现频率/商业重要性越高；颜色：琥珀=热门产品，绿色=正向卖点，红色=差评痛点，蓝色=品类/渠道。</text>
+
+  <g transform="translate(1220 42)">
+    <rect x="0" y="0" width="320" height="88" rx="8" class="panel"/>
+    <circle cx="24" cy="24" r="7" fill="#d99a2b"/><text x="42" y="30" class="hint">热门产品/爆品方向</text>
+    <circle cx="24" cy="50" r="7" fill="#2f7d5c"/><text x="42" y="56" class="hint">正向评价/购买理由</text>
+    <circle cx="190" cy="24" r="7" fill="#a83f5f"/><text x="208" y="30" class="hint">差评痛点/风险</text>
+    <circle cx="190" cy="50" r="7" fill="#2367a2"/><text x="208" y="56" class="hint">平台/品类信号</text>
+  </g>
+
+  <!-- United States / Canada -->
+  <g transform="translate(60 150)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">美国 / 加拿大</text>
+    <text x="24" y="64" class="platform">Amazon · Chewy · Petco · Walmart · Costco · TikTok Shop</text>
+    <text x="26" y="108" class="hot" font-size="34">冻干训练零食</text>
+    <text x="250" y="105" class="hot" font-size="30">洁齿棒</text>
+    <text x="30" y="148" class="pos" font-size="25">single ingredient</text>
+    <text x="245" y="145" class="pos" font-size="24">high protein</text>
+    <text x="30" y="186" class="neg" font-size="28">crumbs / 碎粉</text>
+    <text x="250" y="184" class="neg" font-size="25">too hard</text>
+    <text x="30" y="222" class="cat" font-size="21">meal topper</text>
+    <text x="190" y="222" class="neg" font-size="21">upset stomach</text>
+    <text x="348" y="222" class="neu" font-size="18">subscribe</text>
+  </g>
+
+  <!-- China -->
+  <g transform="translate(565 150)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">中国</text>
+    <text x="24" y="64" class="platform">天猫 · 京东 · 抖音商城 · 小红书 · 拼多多 · B站</text>
+    <text x="28" y="110" class="hot" font-size="36">猫条补水</text>
+    <text x="225" y="108" class="hot" font-size="34">冻干拌粮</text>
+    <text x="30" y="150" class="pos" font-size="26">0胶 / 0淀粉</text>
+    <text x="255" y="150" class="pos" font-size="24">高肉含量</text>
+    <text x="30" y="188" class="neg" font-size="25">诱食剂焦虑</text>
+    <text x="245" y="188" class="neg" font-size="25">包装漏液</text>
+    <text x="30" y="224" class="cat" font-size="21">直播转化</text>
+    <text x="170" y="224" class="cat" font-size="20">种草避雷</text>
+    <text x="320" y="224" class="neu" font-size="18">追评</text>
+  </g>
+
+  <!-- Europe -->
+  <g transform="translate(1070 150)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">欧洲 / 英国</text>
+    <text x="24" y="64" class="platform">Pets at Home · Fressnapf · zooplus · bitiba · Amazon EU</text>
+    <text x="28" y="108" class="hot" font-size="33">天然咀嚼</text>
+    <text x="230" y="108" class="hot" font-size="31">Dentastix / Greenies</text>
+    <text x="30" y="148" class="pos" font-size="25">natural</text>
+    <text x="150" y="148" class="pos" font-size="24">sustainable</text>
+    <text x="320" y="148" class="cat" font-size="22">FEDIAF</text>
+    <text x="30" y="186" class="neg" font-size="25">overpriced</text>
+    <text x="220" y="186" class="neg" font-size="24">too small</text>
+    <text x="350" y="186" class="neg" font-size="22">odor</text>
+    <text x="30" y="224" class="cat" font-size="21">clean label</text>
+    <text x="190" y="224" class="neu" font-size="19">delivery</text>
+    <text x="310" y="224" class="neg" font-size="19">choking risk</text>
+  </g>
+
+  <!-- Japan / Korea -->
+  <g transform="translate(60 435)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">日本 / 韩国</text>
+    <text x="24" y="64" class="platform">Rakuten · Yahoo Shopping · Amazon JP · Coupang · Naver</text>
+    <text x="28" y="108" class="hot" font-size="34">小包装猫零食</text>
+    <text x="270" y="108" class="hot" font-size="30">PETKISS 洁齿</text>
+    <text x="30" y="148" class="pos" font-size="25">软硬适中</text>
+    <text x="190" y="148" class="pos" font-size="24">老龄宠物</text>
+    <text x="345" y="148" class="cat" font-size="21">次日达</text>
+    <text x="30" y="186" class="neg" font-size="25">挑食不吃</text>
+    <text x="195" y="186" class="neg" font-size="24">尺寸不合适</text>
+    <text x="365" y="186" class="neg" font-size="21">贵</text>
+    <text x="30" y="224" class="cat" font-size="21">동결건조</text>
+    <text x="165" y="224" class="cat" font-size="20">フリーズドライ</text>
+    <text x="335" y="224" class="pos" font-size="19">安心感</text>
+  </g>
+
+  <!-- Southeast Asia -->
+  <g transform="translate(565 435)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">东南亚 / 越南</text>
+    <text x="24" y="64" class="platform">Shopee · Lazada · TikTok Shop · 本地宠物店</text>
+    <text x="28" y="108" class="hot" font-size="36">猫冻干鸡肉</text>
+    <text x="280" y="108" class="hot" font-size="30">小包装</text>
+    <text x="30" y="148" class="pos" font-size="25">买家图</text>
+    <text x="145" y="148" class="pos" font-size="24">适口性</text>
+    <text x="275" y="148" class="cat" font-size="22">TikTok Shop</text>
+    <text x="30" y="186" class="neg" font-size="25">物流破损</text>
+    <text x="190" y="186" class="neg" font-size="24">真假品牌</text>
+    <text x="340" y="186" class="neg" font-size="21">保质期</text>
+    <text x="30" y="224" class="cat" font-size="21">fish/chicken</text>
+    <text x="205" y="224" class="neu" font-size="19">discount</text>
+    <text x="320" y="224" class="pos" font-size="19">repeat buy</text>
+  </g>
+
+  <!-- Brazil / Latin America -->
+  <g transform="translate(1070 435)">
+    <rect class="panel" width="470" height="250" rx="12"/>
+    <text x="24" y="38" class="region">巴西 / 拉美</text>
+    <text x="24" y="64" class="platform">Petlove · Petz · Mercado Livre · Amazon Brazil · Reclame Aqui</text>
+    <text x="28" y="108" class="hot" font-size="34">Dentalife</text>
+    <text x="205" y="108" class="hot" font-size="32">肉条 / bifinho</text>
+    <text x="30" y="148" class="pos" font-size="25">preço bom</text>
+    <text x="190" y="148" class="pos" font-size="24">犬只爱吃</text>
+    <text x="330" y="148" class="cat" font-size="21">+1000 sold</text>
+    <text x="30" y="186" class="neg" font-size="25">corante</text>
+    <text x="170" y="186" class="neg" font-size="24">entrega</text>
+    <text x="300" y="186" class="neg" font-size="22">validade</text>
+    <text x="30" y="224" class="cat" font-size="21">anti-bafo</text>
+    <text x="175" y="224" class="neu" font-size="19">pack econômico</text>
+    <text x="350" y="224" class="neg" font-size="19">agitado</text>
+  </g>
+
+  <!-- Middle East / AU/NZ -->
+  <g transform="translate(60 720)">
+    <rect class="panel" width="720" height="250" rx="12"/>
+    <text x="24" y="38" class="region">中东 / 澳新</text>
+    <text x="24" y="64" class="platform">Amazon UAE/Saudi · Noon · Carrefour · Pet Circle · Petstock · Animates</text>
+    <text x="30" y="112" class="hot" font-size="36">新西兰风干</text>
+    <text x="260" y="112" class="hot" font-size="32">Kit Cat 冻干猫零食</text>
+    <text x="550" y="112" class="hot" font-size="28">单一蛋白</text>
+    <text x="30" y="154" class="pos" font-size="26">grass-fed</text>
+    <text x="185" y="154" class="pos" font-size="25">traceable</text>
+    <text x="335" y="154" class="pos" font-size="24">高端进口</text>
+    <text x="500" y="154" class="cat" font-size="22">Arabic label</text>
+    <text x="30" y="196" class="neg" font-size="25">price premium</text>
+    <text x="235" y="196" class="neg" font-size="24">缺货</text>
+    <text x="330" y="196" class="neg" font-size="22">shipping heat</text>
+    <text x="520" y="196" class="neg" font-size="21">small pack</text>
+    <text x="30" y="230" class="cat" font-size="20">venison / lamb / beef</text>
+    <text x="270" y="230" class="neu" font-size="19">premium gift</text>
+    <text x="430" y="230" class="pos" font-size="19">natural origin</text>
+  </g>
+
+  <!-- Product evidence summary -->
+  <g transform="translate(825 720)">
+    <rect class="panel" width="715" height="250" rx="12"/>
+    <text x="24" y="38" class="region">热门产品点评关键词汇总</text>
+    <text x="24" y="64" class="platform">面向品牌 AI 可见度建设：把关键词转成 FAQ、产品页、竞品对比和内容证据</text>
+    <text x="30" y="112" class="hot" font-size="38">冻干</text>
+    <text x="135" y="112" class="hot" font-size="36">猫条</text>
+    <text x="245" y="112" class="hot" font-size="34">洁齿</text>
+    <text x="355" y="112" class="hot" font-size="32">风干</text>
+    <text x="465" y="112" class="hot" font-size="30">功能软咀嚼</text>
+    <text x="30" y="154" class="pos" font-size="27">适口性</text>
+    <text x="150" y="154" class="pos" font-size="26">高蛋白</text>
+    <text x="270" y="154" class="pos" font-size="25">清洁标签</text>
+    <text x="430" y="154" class="pos" font-size="24">补水</text>
+    <text x="520" y="154" class="pos" font-size="23">可追溯</text>
+    <text x="30" y="196" class="neg" font-size="28">碎粉</text>
+    <text x="125" y="196" class="neg" font-size="27">太硬</text>
+    <text x="225" y="196" class="neg" font-size="26">诱食剂</text>
+    <text x="360" y="196" class="neg" font-size="25">异味</text>
+    <text x="455" y="196" class="neg" font-size="24">吞咽风险</text>
+    <text x="600" y="196" class="neg" font-size="22">贵</text>
+    <text x="30" y="230" class="cat" font-size="20">Amazon/Chewy 评论</text>
+    <text x="210" y="230" class="cat" font-size="20">小红书避雷</text>
+    <text x="355" y="230" class="cat" font-size="20">抖音热卖词</text>
+    <text x="500" y="230" class="cat" font-size="20">Shopee 销量</text>
+  </g>
+
+  <text x="60" y="1035" class="sub">关键词数：70+。建议下一步把每个平台评论导出后按“正向词/负向词/产品词/询问词”四类月度更新，用于佩蒂股份、江苏康贝及自有品牌 AI 可见度评估。</text>
+</svg>

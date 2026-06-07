@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1050" viewBox="0 0 1600 1050" role="img" aria-labelledby="title desc">
+  <title id="title">全球主要宠物食品销售平台与经销渠道地图</title>
+  <desc id="desc">以世界地图为底，按国家和区域位置标注主要宠物食品销售平台、商超、专业连锁和经销商，名称可点击到官网。</desc>
+  <defs>
+    <style>
+      .bg{fill:#fbfaf6}.ocean{fill:#e7eff7}.grid{stroke:#d6dfdf;stroke-width:.8;opacity:.5}.map-img{opacity:.72}
+      .title{font:800 42px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#17201c}.sub{font:500 16px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}
+      .region{font:800 18px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#17201c}.note{font:600 13px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}
+      .callout{fill:#fff;stroke:#e5dfd1;stroke-width:1.1;filter:url(#shadow)}.line{stroke:#8aa0aa;stroke-width:1.1;fill:none;stroke-dasharray:4 5}
+      .pin-retail{fill:#2367a2;stroke:#fff;stroke-width:2}.pin-market{fill:#d99a2b;stroke:#fff;stroke-width:2}.pin-dist{fill:#2f7d5c;stroke:#fff;stroke-width:2}.pin-rus{fill:#a83f5f;stroke:#fff;stroke-width:2}
+      a text{font-family:"Microsoft YaHei","Noto Sans SC",Arial,sans-serif;font-weight:800;text-decoration:underline}
+      .retail{fill:#2367a2}.market{fill:#d99a2b}.dist{fill:#2f7d5c}.rus{fill:#a83f5f}
+      .small{font-size:15px}.mid{font-size:18px}.big{font-size:21px}.label{font:700 12px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#17201c" flood-opacity=".08"/>
+    </filter>
+  </defs>
+  <rect class="bg" width="1600" height="1050"/>
+  <text x="60" y="70" class="title">全球主要宠物食品销售平台与经销渠道地图</text>
+  <text x="60" y="106" class="sub">按国家/区域位置标注主要渠道。蓝=专业宠物零售/垂直电商，琥珀=商超/综合平台，绿=经销商/进口商，红=俄罗斯/CIS 渠道。名称可点击官网。</text>
+
+  <rect x="60" y="135" width="1480" height="670" rx="18" class="ocean"/>
+  <image class="map-img" href="world-map-base.svg" x="130" y="160" width="1340" height="620" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- USA / Canada -->
+  <circle cx="408" cy="319" r="9" class="pin-retail"/><text x="382" y="300" class="label">美国</text><path class="line" d="M408 319 C335 225 245 190 165 200"/>
+  <rect x="90" y="170" width="365" height="168" rx="12" class="callout"/>
+  <text x="112" y="202" class="region">北美：美国 / 加拿大</text>
+  <a href="https://www.petsmart.com/" target="_blank"><text x="112" y="235" class="big retail">PetSmart</text></a>
+  <a href="https://www.petco.com/" target="_blank"><text x="240" y="235" class="big retail">Petco</text></a>
+  <a href="https://www.chewy.com/" target="_blank"><text x="112" y="267" class="big retail">Chewy</text></a>
+  <a href="https://www.walmart.com/cp/pets/5440" target="_blank"><text x="230" y="267" class="mid market">Walmart Pets</text></a>
+  <a href="https://www.costco.com/pet-supplies.html" target="_blank"><text x="112" y="298" class="mid market">Costco Pet</text></a>
+  <text x="112" y="324" class="note">用途：冻干、洁齿、功能零食评价样本与价格带。</text>
+
+  <!-- Brazil / LATAM -->
+  <circle cx="612" cy="470" r="9" class="pin-retail"/><text x="580" y="452" class="label">巴西</text><path class="line" d="M612 470 C535 540 480 615 455 690"/>
+  <rect x="320" y="675" width="300" height="115" rx="12" class="callout"/>
+  <text x="342" y="704" class="region">巴西 / 拉美补充观察</text>
+  <a href="https://www.petlove.com.br/" target="_blank"><text x="342" y="735" class="big retail">Petlove</text></a>
+  <a href="https://www.petz.com.br/" target="_blank"><text x="458" y="735" class="mid retail">Petz</text></a>
+  <a href="https://www.mercadolivre.com.br/" target="_blank"><text x="342" y="766" class="mid market">Mercado Livre</text></a>
+
+  <!-- Europe -->
+  <circle cx="840" cy="279" r="9" class="pin-retail"/><text x="816" y="260" class="label">德国</text><path class="line" d="M840 279 C735 365 670 420 650 490"/>
+  <rect x="565" y="475" width="385" height="165" rx="12" class="callout"/>
+  <text x="587" y="505" class="region">欧洲：德国 / 英国 / 西班牙 / 意大利</text>
+  <a href="https://www.fressnapf.de/" target="_blank"><text x="587" y="538" class="big retail">Fressnapf / Maxi Zoo</text></a>
+  <a href="https://www.zooplus.com/" target="_blank"><text x="587" y="569" class="big retail">zooplus</text></a>
+  <a href="https://www.petsathome.com/" target="_blank"><text x="587" y="600" class="mid retail">Pets at Home</text></a>
+  <a href="https://www.arcaplanet.it/" target="_blank"><text x="735" y="600" class="mid retail">Arcaplanet</text></a>
+  <a href="https://www.tiendanimal.es/" target="_blank"><text x="587" y="626" class="mid retail">Tiendanimal</text></a>
+
+  <!-- Russia -->
+  <circle cx="948" cy="262" r="9" class="pin-rus"/><text x="928" y="242" class="label">俄罗斯</text><path class="line" d="M948 262 C990 200 1055 180 1120 185"/>
+  <rect x="1090" y="160" width="335" height="145" rx="12" class="callout"/>
+  <text x="1112" y="190" class="region">俄罗斯 / CIS</text>
+  <a href="https://4lapy.ru/" target="_blank"><text x="1112" y="223" class="big rus">Четыре Лапы / 4lapy</text></a>
+  <a href="https://www.petshop.ru/" target="_blank"><text x="1112" y="254" class="mid rus">Petshop.ru</text></a>
+  <a href="https://www.bethowen.ru/" target="_blank"><text x="1230" y="254" class="mid rus">Бетховен</text></a>
+  <a href="https://valta.ru/" target="_blank"><text x="1112" y="283" class="mid dist">Valta Pet Products</text></a>
+
+  <!-- Japan Korea -->
+  <circle cx="1356" cy="324" r="9" class="pin-retail"/><text x="1340" y="306" class="label">日本</text>
+  <circle cx="1308" cy="319" r="8" class="pin-market"/><text x="1282" y="300" class="label">韩国</text><path class="line" d="M1335 322 C1390 380 1435 430 1455 488"/>
+  <rect x="1255" y="475" width="285" height="175" rx="12" class="callout"/>
+  <text x="1277" y="505" class="region">日本 / 韩国</text>
+  <a href="https://www.aeonpet.com/" target="_blank"><text x="1277" y="538" class="big retail">AEON Pet</text></a>
+  <a href="https://www.rakuten.co.jp/category/pet/" target="_blank"><text x="1277" y="569" class="mid market">Rakuten Pet</text></a>
+  <a href="https://shopping.yahoo.co.jp/category/2509/" target="_blank"><text x="1277" y="596" class="mid market">Yahoo Shopping JP</text></a>
+  <a href="https://www.coupang.com/" target="_blank"><text x="1277" y="623" class="mid market">Coupang</text></a>
+  <a href="https://shopping.naver.com/" target="_blank"><text x="1375" y="623" class="mid market">Naver</text></a>
+
+  <!-- Southeast Asia -->
+  <circle cx="1216" cy="427" r="9" class="pin-retail"/><text x="1196" y="407" class="label">新加坡</text>
+  <circle cx="1204" cy="418" r="8" class="pin-dist"/><text x="1170" y="444" class="label">马来/泰国</text><path class="line" d="M1210 425 C1130 430 1040 455 1000 500"/>
+  <rect x="955" y="495" width="330" height="175" rx="12" class="callout"/>
+  <text x="977" y="525" class="region">东南亚：新加坡 / 马来西亚 / 泰国</text>
+  <a href="https://www.petloverscentre.com/" target="_blank"><text x="977" y="558" class="big retail">Pet Lovers Centre</text></a>
+  <a href="https://www.perromart.com.sg/" target="_blank"><text x="977" y="589" class="mid retail">Perromart</text></a>
+  <a href="https://www.stellarpets.com.sg/" target="_blank"><text x="1085" y="589" class="mid dist">Stellar Pets</text></a>
+  <a href="https://www.avantpet.my/" target="_blank"><text x="977" y="616" class="mid dist">Avant Pet Malaysia</text></a>
+  <a href="https://www.pawducts.co/" target="_blank"><text x="977" y="643" class="mid dist">Pawducts Thailand</text></a>
+  <a href="https://shopee.com/" target="_blank"><text x="1148" y="643" class="mid market">Shopee / Lazada</text></a>
+
+  <!-- Australia / New Zealand -->
+  <circle cx="1332" cy="585" r="9" class="pin-retail"/><text x="1300" y="565" class="label">澳大利亚</text>
+  <circle cx="1496" cy="640" r="8" class="pin-retail"/><text x="1472" y="622" class="label">新西兰</text><path class="line" d="M1332 585 C1230 690 1160 780 1135 840"/>
+  <rect x="880" y="820" width="420" height="135" rx="12" class="callout"/>
+  <text x="902" y="850" class="region">澳大利亚 / 新西兰</text>
+  <a href="https://www.petbarn.com.au/" target="_blank"><text x="902" y="883" class="big retail">Petbarn</text></a>
+  <a href="https://www.petstock.com.au/" target="_blank"><text x="1020" y="883" class="big retail">PETstock</text></a>
+  <a href="https://www.petcircle.com.au/" target="_blank"><text x="902" y="914" class="mid retail">Pet Circle</text></a>
+  <a href="https://www.animates.co.nz/" target="_blank"><text x="1025" y="914" class="mid retail">Animates NZ</text></a>
+  <text x="902" y="940" class="note">用途：高端天然、风干/冻干、产地背书和平台评价样本。</text>
+
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">全球宠物内容影响者粉丝规模地图</title>
+  <desc id="desc">以世界地图为底，按照国家和区域位置展示宠物内容影响者，字号随粉丝规模变化。</desc>
+  <defs>
+    <style>
+      .bg{fill:#fbfaf6}.ocean{fill:#e7eff7}.grid{stroke:#d6dfdf;stroke-width:.8;opacity:.5}.map-img{opacity:.72}
+      .title{font:800 42px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#17201c}.sub{font:500 16px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}
+      .note{font:600 13px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}.legend{font:700 14px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#17201c}
+      .callout{fill:#fff;stroke:#e5dfd1;stroke-width:1.1;filter:url(#shadow)}.pin{fill:#17201c;stroke:#fff;stroke-width:2}
+      a text{font-family:"Microsoft YaHei","Noto Sans SC",Arial,sans-serif;font-weight:900;text-decoration:underline}
+      .ig{fill:#a83f5f}.tt{fill:#17201c}.yt{fill:#d33b2f}.vet{fill:#2f7d5c}.brand{fill:#d99a2b}.asia{fill:#2367a2}
+      .f12{font-size:18px}.f24{font-size:25px}.f45{font-size:30px}.f90{font-size:36px}.f120{font-size:42px}.f160{font-size:48px}.f220{font-size:54px}
+      .count{font:700 14px "Microsoft YaHei","Noto Sans SC",Arial,sans-serif;fill:#5e6962}.line{stroke:#8aa0aa;stroke-width:1.1;fill:none;stroke-dasharray:4 5}
+    </style>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#17201c" flood-opacity=".08"/>
+    </filter>
+  </defs>
+  <rect class="bg" width="1600" height="980"/>
+  <text x="60" y="70" class="title">全球宠物内容影响者粉丝规模地图</text>
+  <text x="60" y="106" class="sub">字号越大代表粉丝规模越大；粉丝数为公开来源近似值，口径包括主平台或跨平台总量。名称可点击跳转公开主页。</text>
+
+  <rect x="60" y="135" width="1480" height="650" rx="18" class="ocean"/>
+  <image class="map-img" href="world-map-base.svg" x="130" y="155" width="1340" height="610" preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- North America -->
+  <circle cx="408" cy="319" r="8" class="pin"/><path class="line" d="M408 319 C465 245 560 215 610 220"/>
+  <rect x="600" y="175" width="420" height="185" rx="12" class="callout"/>
+  <text x="620" y="205" class="legend">美国 / 全球英语圈</text>
+  <a href="https://www.instagram.com/jiffpom/" target="_blank"><text x="620" y="250" class="f90 ig">Jiffpom</text></a><text x="810" y="250" class="count">约 8.5-9.2M Instagram</text>
+  <a href="https://www.instagram.com/itsdougthepug/" target="_blank"><text x="620" y="292" class="f120 ig">Doug the Pug</text></a><text x="915" y="292" class="count">约 16M+ 跨平台</text>
+  <a href="https://www.instagram.com/tuckerbudzyn/" target="_blank"><text x="620" y="336" class="f220 tt">Tucker Budzyn</text></a><text x="1010" y="336" class="count">约 20M+ 跨平台</text>
+
+  <circle cx="362" cy="340" r="8" class="pin"/><path class="line" d="M362 340 C245 365 210 430 220 470"/>
+  <rect x="110" y="455" width="420" height="150" rx="12" class="callout"/>
+  <a href="https://www.instagram.com/nala_cat/" target="_blank"><text x="130" y="505" class="f45 ig">Nala Cat</text></a><text x="300" y="505" class="count">约 4.5M Instagram</text>
+  <a href="https://www.instagram.com/sapphie_the_pomsky/" target="_blank"><text x="130" y="548" class="f90 tt">Sapphie</text></a><text x="325" y="548" class="count">约 9M+ 跨平台</text>
+  <a href="https://www.instagram.com/tunameltsmyheart/" target="_blank"><text x="130" y="585" class="f24 ig">Tuna Melts My Heart</text></a><text x="420" y="585" class="count">约 2M Instagram</text>
+
+  <!-- Europe -->
+  <circle cx="775" cy="265" r="8" class="pin"/><path class="line" d="M775 265 C820 365 900 390 960 382"/>
+  <rect x="960" y="360" width="420" height="130" rx="12" class="callout"/>
+  <text x="980" y="390" class="legend">英国 / 欧洲内容 IP</text>
+  <a href="https://www.instagram.com/simonscatofficial/" target="_blank"><text x="980" y="435" class="f120 yt">Simon’s Cat</text></a><text x="1260" y="435" class="count">约 6.1M Instagram</text>
+  <a href="https://www.youtube.com/user/simonscat" target="_blank"><text x="980" y="470" class="f45 yt">YouTube</text></a><text x="1135" y="470" class="count">约 6.5M 订阅</text>
+
+  <!-- Asia -->
+  <circle cx="1340" cy="320" r="8" class="pin"/><path class="line" d="M1340 320 C1395 265 1440 235 1465 238"/>
+  <rect x="1240" y="185" width="300" height="120" rx="12" class="callout"/>
+  <text x="1260" y="215" class="legend">日本 / 猫犬内容</text>
+  <a href="https://www.instagram.com/marutaro/" target="_blank"><text x="1260" y="256" class="f24 asia">Marutaro</text></a><text x="1420" y="256" class="count">约 2.4M</text>
+  <a href="https://www.youtube.com/@JunsKitchen" target="_blank"><text x="1260" y="288" class="f24 yt">Jun’s Kitchen + Cats</text></a><text x="1485" y="288" class="count">约 5M+</text>
+
+  <circle cx="1215" cy="425" r="8" class="pin"/><path class="line" d="M1215 425 C1110 500 1040 585 1030 625"/>
+  <rect x="780" y="610" width="520" height="125" rx="12" class="callout"/>
+  <text x="800" y="640" class="legend">东南亚 / 中国内容电商</text>
+  <a href="https://www.instagram.com/petloverscentre/" target="_blank"><text x="800" y="680" class="f12 asia">Pet Lovers Centre</text></a><text x="1010" y="680" class="count">渠道账号，区域内容节点</text>
+  <text x="800" y="715" class="f24 brand">小红书 / 抖音宠物内容</text><text x="1080" y="715" class="count">成分党、避雷、猫条、冻干、直播测款</text>
+
+  <!-- Oceania -->
+  <circle cx="1332" cy="585" r="8" class="pin"/><path class="line" d="M1332 585 C1240 685 1190 765 1185 820"/>
+  <rect x="900" y="800" width="565" height="110" rx="12" class="callout"/>
+  <text x="920" y="830" class="legend">澳大利亚 / 新西兰品牌内容节点</text>
+  <a href="https://www.instagram.com/ziwipets/" target="_blank"><text x="920" y="870" class="f12 brand">ZIWI Pets</text></a><text x="1045" y="870" class="count">新西兰高端宠食内容</text>
+  <a href="https://www.instagram.com/k9natural/" target="_blank"><text x="1230" y="870" class="f12 brand">K9 Natural</text></a><text x="1380" y="870" class="count">天然/冻干</text>
+
+  <text x="60" y="950" class="sub">粉丝数为公开来源近似值，实际合作前需以平台主页或账号后台复核；详见 research/sources.md。</text>
+</svg>
