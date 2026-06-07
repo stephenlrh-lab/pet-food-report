@@ -376,6 +376,21 @@
       margin-top: 24px;
     }
 
+    .grid > .matrix {
+      grid-column: 1 / -1;
+    }
+
+    .audit-table {
+      table-layout: fixed;
+      min-width: 980px;
+    }
+
+    .audit-table th:nth-child(1), .audit-table td:nth-child(1) { width: 22%; }
+    .audit-table th:nth-child(2), .audit-table td:nth-child(2) { width: 12%; }
+    .audit-table th:nth-child(3), .audit-table td:nth-child(3) { width: 8%; }
+    .audit-table th:nth-child(4), .audit-table td:nth-child(4) { width: 28%; }
+    .audit-table th:nth-child(5), .audit-table td:nth-child(5) { width: 30%; }
+
     .evidence-map {
       grid-column: 1 / -1;
       background: var(--panel);
@@ -508,6 +523,7 @@
       .score-row { grid-template-columns: 1fr; gap: 6px; }
       .source-list { columns: 1; }
       .matrix { display: block; overflow-x: auto; }
+      .audit-table { min-width: 860px; }
     }
 
     @media (max-width: 560px) {
@@ -536,6 +552,7 @@
         <a href="#channel-map">社媒/渠道地图</a>
         <a href="#geo">GEO 诊断</a>
         <a href="#gpt-audit">GPT 初检</a>
+        <a href="#deepseek-audit">DeepSeek 初检</a>
         <a href="#factory">四地工厂</a>
         <a href="#concepts">新品建议</a>
         <a href="#sources">关键来源</a>
@@ -847,7 +864,7 @@
               <div class="score-row"><strong>风险控制</strong><div class="score-track"><span class="score-fill" style="width:80%"></span></div><span>4 / 5</span></div>
             </div>
           </article>
-          <table class="matrix">
+          <table class="matrix audit-table">
             <thead>
               <tr>
                 <th>测试对象</th>
@@ -925,8 +942,119 @@
         </div>
       </section>
 
+      <section class="reveal" id="deepseek-audit">
+        <div class="eyebrow">10 · DeepSeek API Audit</div>
+        <h2>DeepSeek 初检：偏重中文语境与产业链解释</h2>
+        <p class="lead">DeepSeek API 实测显示：佩蒂股份在中文行业语境、上市公司和制造网络方面识别度更高；爵宴在高端肉类零食定位上优于 GPT 初检表现；好适嘉仍受限于功能营养证据和精准营养内容不足。</p>
+        <div class="grid">
+          <article class="card">
+            <div class="stat">68</div>
+            <h3>DeepSeek 综合分</h3>
+            <p class="muted">满分 100，评级为中高。中文产业链识别强于消费端品牌推荐。</p>
+          </article>
+          <article class="card">
+            <div class="stat">85</div>
+            <h3>佩蒂股份推荐度</h3>
+            <p class="muted">作为上市公司和行业龙头，制造网络和供应链优势被 DeepSeek 认可。</p>
+          </article>
+          <article class="card">
+            <div class="stat">70</div>
+            <h3>爵宴推荐度</h3>
+            <p class="muted">高端零食定位清晰，真实肉源卖点被采纳，但仍弱于海外冻干头部品牌。</p>
+          </article>
+          <article class="score-panel">
+            <h3>DeepSeek 初检各项得分</h3>
+            <div class="score-list">
+              <div class="score-row"><strong>品牌被提及</strong><div class="score-track"><span class="score-fill" style="width:80%"></span></div><span>16 / 20</span></div>
+              <div class="score-row"><strong>推荐排名</strong><div class="score-track"><span class="score-fill" style="width:67%"></span></div><span>10 / 15</span></div>
+              <div class="score-row"><strong>理由准确度</strong><div class="score-track"><span class="score-fill" style="width:73%"></span></div><span>11 / 15</span></div>
+              <div class="score-row"><strong>可引用证据</strong><div class="score-track"><span class="score-fill" style="width:67%"></span></div><span>10 / 15</span></div>
+              <div class="score-row"><strong>竞品对比</strong><div class="score-track"><span class="score-fill" style="width:70%"></span></div><span>7 / 10</span></div>
+              <div class="score-row"><strong>本地语言覆盖</strong><div class="score-track"><span class="score-fill" style="width:80%"></span></div><span>8 / 10</span></div>
+              <div class="score-row"><strong>询盘转化路径</strong><div class="score-track"><span class="score-fill" style="width:40%"></span></div><span>4 / 10</span></div>
+              <div class="score-row"><strong>风险控制</strong><div class="score-track"><span class="score-fill" style="width:40%"></span></div><span>2 / 5</span></div>
+            </div>
+          </article>
+          <div class="brand-compare">
+            <article class="compare-card">
+              <h3>爵宴 DeepSeek 对照组</h3>
+              <div class="score-list">
+                <div class="score-row"><strong>Stella & Chewy's</strong><div class="score-track"><span class="score-fill" style="width:90%"></span></div><span>90</span></div>
+                <div class="score-row"><strong>PureBites</strong><div class="score-track"><span class="score-fill" style="width:85%"></span></div><span>85</span></div>
+                <div class="score-row"><strong>爵宴 MeatyWay</strong><div class="score-track"><span class="score-fill" style="width:70%"></span></div><span>70</span></div>
+              </div>
+              <p class="muted">DeepSeek 认为爵宴在真实肉源和性价比上有优势，但品牌知名度和冻干工艺细节弱于 Stella & Chewy's 和 PureBites。</p>
+              <div class="prompt-chip-row">
+                <span class="prompt-chip">爵宴 MeatyWay</span>
+                <span class="prompt-chip">PureBites</span>
+                <span class="prompt-chip">Stella & Chewy's</span>
+              </div>
+            </article>
+            <article class="compare-card">
+              <h3>好适嘉 DeepSeek 对照组</h3>
+              <div class="score-list">
+                <div class="score-row"><strong>Hill's Science Diet</strong><div class="score-track"><span class="score-fill" style="width:95%"></span></div><span>95</span></div>
+                <div class="score-row"><strong>Zesty Paws</strong><div class="score-track"><span class="score-fill" style="width:80%"></span></div><span>80</span></div>
+                <div class="score-row"><strong>好适嘉 HealthGuard</strong><div class="score-track"><span class="score-fill" style="width:45%"></span></div><span>45</span></div>
+              </div>
+              <p class="muted">DeepSeek 认为好适嘉在功能营养领域缺乏权威背书和细分产品线，与 Hill's 和 Zesty Paws 差距明显。</p>
+              <div class="prompt-chip-row">
+                <span class="prompt-chip">好适嘉 HealthGuard</span>
+                <span class="prompt-chip">Zesty Paws</span>
+                <span class="prompt-chip">Hill's Science Diet</span>
+              </div>
+            </article>
+          </div>
+          <table class="matrix audit-table">
+            <thead>
+              <tr>
+                <th>测试对象</th>
+                <th>DeepSeek 推荐度</th>
+                <th>得分</th>
+                <th>DeepSeek 反馈摘要</th>
+                <th>内容缺口</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>佩蒂股份 / Petpal</strong></td>
+                <td>高</td>
+                <td>85</td>
+                <td>作为上市公司和行业龙头，模型推荐度高，制造网络和供应链优势被认可。</td>
+                <td>缺乏对品牌整体战略和 ESG 信息的深度整合。</td>
+              </tr>
+              <tr>
+                <td><strong>江苏康贝</strong></td>
+                <td>中</td>
+                <td>55</td>
+                <td>作为生产工厂，模型提及较少，仅在讨论佩蒂产能时被附带。</td>
+                <td>独立品牌认知度低，需强化 B 端专业形象。</td>
+              </tr>
+              <tr>
+                <td><strong>爵宴 / MeatyWay</strong></td>
+                <td>中高</td>
+                <td>70</td>
+                <td>高端零食定位清晰，真实肉源卖点被模型采纳。</td>
+                <td>缺乏与 Stella & Chewy's 的冻干工艺对比，需补充技术细节。</td>
+              </tr>
+              <tr>
+                <td><strong>好适嘉 / HealthGuard</strong></td>
+                <td>中低</td>
+                <td>45</td>
+                <td>功能营养定位模糊，模型难以区分其与普通处方粮。</td>
+                <td>需明确精准营养的科学依据和临床验证。</td>
+              </tr>
+            </tbody>
+          </table>
+          <article class="card full">
+            <h3>DeepSeek 建议</h3>
+            <p>优先为好适嘉补充科学证据和细分场景内容，强化爵宴的冻干工艺对比，并优化英文搜索中的品牌覆盖；同时在 GEO 内容中嵌入明确购买链接和合作入口，提升转化路径。</p>
+          </article>
+        </div>
+      </section>
+
       <section class="reveal" id="factory">
-        <div class="eyebrow">10 · Factory Matrix</div>
+        <div class="eyebrow">11 · Factory Matrix</div>
         <h2>温州、泰州、越南、柬埔寨、新西兰应形成互补</h2>
         <table class="matrix">
           <thead>
@@ -979,7 +1107,7 @@
       </section>
 
       <section class="reveal" id="concepts">
-        <div class="eyebrow">11 · Product Concepts</div>
+        <div class="eyebrow">12 · Product Concepts</div>
         <h2>建议先做 5 条样品线验证</h2>
         <div class="grid">
           <article class="card wide"><h3>新西兰单一蛋白风干训练粒</h3><p>面向欧美、日韩、中国高端犬主。验证适口性、碎裂率、氧化气味和单位克价接受度。</p></article>
@@ -991,7 +1119,7 @@
       </section>
 
       <section class="reveal" id="sources">
-        <div class="eyebrow">12 · Sources</div>
+        <div class="eyebrow">13 · Sources</div>
         <h2>关键来源</h2>
         <ul class="source-list">
           <li><a href="https://www.grandviewresearch.com/industry-analysis/pet-snacks-treats-market-report" target="_blank" rel="noreferrer">Grand View Research: Pet Snacks And Treats Market</a></li>

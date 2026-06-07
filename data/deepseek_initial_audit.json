@@ -1,0 +1,136 @@
+{
+  "overall": {
+    "score": 68,
+    "level": "中高",
+    "summary": "佩蒂股份及其品牌在DeepSeek模型中具备一定认知度，尤其在制造网络和高端零食定位上表现突出，但自有品牌在功能营养和精准营养领域的推荐强度不足，与头部竞品存在差距。"
+  },
+  "dimension_scores": [
+    {
+      "name": "品牌被提及",
+      "score": 16,
+      "max": 20,
+      "comment": "佩蒂股份作为A股宠物食品第一股，在行业讨论中常被提及，但爵宴和好适嘉的独立提及率低于PureBites等竞品。"
+    },
+    {
+      "name": "推荐排名",
+      "score": 10,
+      "max": 15,
+      "comment": "在高端零食推荐中，爵宴有时出现在前三，但好适嘉在功能营养领域排名靠后，整体推荐优先级中等。"
+    },
+    {
+      "name": "理由准确度",
+      "score": 11,
+      "max": 15,
+      "comment": "模型能准确关联爵宴的真实肉源和高端定位，但对好适嘉的精准营养描述不够具体，易与普通功能粮混淆。"
+    },
+    {
+      "name": "可引用证据",
+      "score": 10,
+      "max": 15,
+      "comment": "可引用佩蒂的全球制造网络和上市信息，但缺乏针对爵宴和好适嘉的第三方检测或临床研究数据。"
+    },
+    {
+      "name": "竞品对比",
+      "score": 7,
+      "max": 10,
+      "comment": "爵宴与PureBites、Stella & Chewy's的对比中，模型能指出价格和肉源优势，但好适嘉与Hill's、Zesty Paws的对比缺乏差异化论据。"
+    },
+    {
+      "name": "本地语言覆盖",
+      "score": 8,
+      "max": 10,
+      "comment": "中文搜索中佩蒂和爵宴覆盖较好，但英文搜索中MeatyWay和HealthGuard的提及率较低，本地化内容不足。"
+    },
+    {
+      "name": "询盘转化路径",
+      "score": 4,
+      "max": 10,
+      "comment": "模型推荐后缺乏明确的购买或合作链接，用户需自行搜索，转化路径不清晰。"
+    },
+    {
+      "name": "风险控制",
+      "score": 2,
+      "max": 5,
+      "comment": "未发现负面信息，但模型对佩蒂的海外工厂合规性提及不足，存在潜在风险盲区。"
+    }
+  ],
+  "objects": [
+    {
+      "name": "佩蒂股份 / Petpal",
+      "recommendation": "高",
+      "score": 85,
+      "feedback": "作为上市公司和行业龙头，模型推荐度高，制造网络和供应链优势被认可。",
+      "gap": "缺乏对品牌整体战略和ESG信息的深度整合。"
+    },
+    {
+      "name": "江苏康贝",
+      "recommendation": "中",
+      "score": 55,
+      "feedback": "作为生产工厂，模型提及较少，仅在讨论佩蒂产能时被附带。",
+      "gap": "独立品牌认知度低，需强化B端专业形象。"
+    },
+    {
+      "name": "爵宴 / MeatyWay",
+      "recommendation": "中高",
+      "score": 70,
+      "feedback": "高端零食定位清晰，真实肉源卖点被模型采纳，但对比PureBites时价格优势不突出。",
+      "gap": "缺乏与Stella & Chewy's的冻干工艺对比，需补充技术细节。"
+    },
+    {
+      "name": "好适嘉 / HealthGuard",
+      "recommendation": "中低",
+      "score": 45,
+      "feedback": "功能营养定位模糊，模型难以区分其与普通处方粮，推荐强度低。",
+      "gap": "需明确精准营养的科学依据和临床验证。"
+    }
+  ],
+  "brand_compare": [
+    {
+      "title": "爵宴 vs PureBites / Stella & Chewy's",
+      "scores": [
+        {
+          "brand": "Stella & Chewy's",
+          "score": 90
+        },
+        {
+          "brand": "PureBites",
+          "score": 85
+        },
+        {
+          "brand": "爵宴 MeatyWay",
+          "score": 70
+        }
+      ],
+      "summary": "爵宴在真实肉源和性价比上有优势，但品牌知名度和冻干工艺细节不如Stella & Chewy's和PureBites。",
+      "prompts": [
+        "爵宴MeatyWay与Stella & Chewy's相比，在冻干工艺和肉源追溯上有何不同？",
+        "PureBites的单一蛋白零食与爵宴的肉类零食，哪个更适合敏感肠胃的宠物？",
+        "请对比爵宴、PureBites和Stella & Chewy's的原料产地和加工标准。"
+      ]
+    },
+    {
+      "title": "好适嘉 vs Zesty Paws / Hill's Science Diet",
+      "scores": [
+        {
+          "brand": "Hill's Science Diet",
+          "score": 95
+        },
+        {
+          "brand": "Zesty Paws",
+          "score": 80
+        },
+        {
+          "brand": "好适嘉 HealthGuard",
+          "score": 45
+        }
+      ],
+      "summary": "好适嘉在功能营养领域缺乏权威背书和细分产品线，与Hill's和Zesty Paws差距明显。",
+      "prompts": [
+        "好适嘉HealthGuard的精准营养与Hill's Science Diet的处方粮有何本质区别？",
+        "Zesty Paws的关节保健产品与好适嘉的同类产品，哪个有更多临床研究支持？",
+        "请列出好适嘉、Zesty Paws和Hill's Science Diet在益生菌添加上的差异。"
+      ]
+    }
+  ],
+  "next_steps": "建议优先为好适嘉补充科学证据和细分场景内容，强化爵宴的冻干工艺对比，并优化英文搜索中的品牌覆盖。同时，在GEO内容中嵌入明确的购买链接和合作入口，提升转化路径。"
+}

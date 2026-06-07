@@ -1,0 +1,98 @@
+﻿{
+  "date": "2026-06-07",
+  "purpose": "GEO-ready product, review and AI recommendation signal matrix for pet treat brand strategy",
+  "method_note": "Directional public-web snapshot plus AI recommendation audit template. For production GEO, refresh monthly and enrich with scraped platform review exports and repeated AI prompt tests where legally permitted.",
+  "geo_definition": "Generative Engine Optimization: using controlled prompts to measure whether AI systems recommend a target pet food brand or factory, why they recommend it, what competitors they cite, and what content gaps reduce recommendation probability.",
+  "ai_recommendation_audit": {
+    "score_total": 100,
+    "score_dimensions": [
+      {"name": "是否被提及", "points": 20},
+      {"name": "推荐排名", "points": 15},
+      {"name": "推荐理由准确度", "points": 15},
+      {"name": "证据丰富度", "points": 15},
+      {"name": "竞品相对优势", "points": 10},
+      {"name": "购买或询盘路径", "points": 10},
+      {"name": "风险与负面信息", "points": 10},
+      {"name": "本地语言覆盖", "points": 5}
+    ],
+    "test_platforms": ["ChatGPT", "Perplexity", "Gemini", "Claude", "Microsoft Copilot", "豆包", "Kimi", "通义千问", "文心一言"],
+    "prompt_groups": [
+      "消费者购买推荐",
+      "B2B 工厂/OEM 采购推荐",
+      "竞品对比",
+      "本地语言推荐"
+    ],
+    "paid_service_packages": [
+      {"name": "基础版", "scope": "30 条 Prompt，5 个 AI 平台，推荐度评分和问题清单"},
+      {"name": "标准版", "scope": "60 条 Prompt，8 个 AI 平台，中英文加 2 个目标市场语言，竞品和内容缺口分析"},
+      {"name": "高级版", "scope": "月度复测，跟踪 AI 推荐排名变化、竞品变化、电商点评和社媒信号"}
+    ]
+  },
+  "product_signal_matrix": [
+    {
+      "category": "冻干犬猫零食",
+      "platforms": ["Chewy", "Amazon", "TikTok Shop", "京东", "Shopee", "Rakuten/Yahoo Japan", "Coupang"],
+      "representative_terms": ["freeze-dried dog treats", "freeze dried cat treats", "冻干鸡胸肉", "동결건조간식", "フリーズドライ おやつ"],
+      "positive_terms": ["single ingredient", "high protein", "training", "meal topper", "cats love it", "拌粮", "适口性"],
+      "negative_terms": ["crumbs", "too hard", "powder at bottom", "raw safety", "expensive", "碎粉", "异味"],
+      "factory_fit": ["中国", "越南", "新西兰"]
+    },
+    {
+      "category": "猫条/湿零食",
+      "platforms": ["抖音", "小红书", "天猫", "京东", "TikTok Shop", "Shopee", "Yahoo Shopping Japan"],
+      "representative_terms": ["lickable cat treats", "猫条", "肉泥", "补水", "Kit Cat Freeze Bites"],
+      "positive_terms": ["hydration", "palatability", "hand feeding", "interactive", "高含水", "猫咪爱吃"],
+      "negative_terms": ["gum", "salt", "additives", "leaking pouch", "诱食剂", "包装漏液"],
+      "factory_fit": ["越南", "中国"]
+    },
+    {
+      "category": "洁齿咀嚼零食",
+      "platforms": ["Amazon", "Chewy", "Petco", "Fressnapf", "bitiba", "Coupang", "Petz", "Mercado Livre"],
+      "representative_terms": ["Greenies", "Dentastix", "Dentalife", "Virbac", "Whimzees", "PETKISS"],
+      "positive_terms": ["fresh breath", "dental care", "tartar", "daily routine", "口气", "牙垢"],
+      "negative_terms": ["too hard", "swallowed whole", "starch", "calories", "upset stomach", "太硬", "吞咽风险"],
+      "factory_fit": ["中国", "柬埔寨", "越南"]
+    },
+    {
+      "category": "功能软咀嚼",
+      "platforms": ["Amazon", "Chewy", "TikTok", "抖音", "小红书"],
+      "representative_terms": ["calming bites", "probiotic chews", "joint support treats", "肠胃调理", "关节养护", "美毛护肤"],
+      "positive_terms": ["easy to feed", "soft", "functional", "visible benefit", "软质", "功能精准"],
+      "negative_terms": ["no effect", "medical claim risk", "picky eater", "没效果", "不爱吃"],
+      "factory_fit": ["中国", "越南"]
+    },
+    {
+      "category": "风干/天然咀嚼物",
+      "platforms": ["PetfoodIndustry", "Fressnapf", "zooplus", "Mercado Livre", "Amazon", "Pet Circle"],
+      "representative_terms": ["air-dried chews", "cod skin", "yak cheese", "trachea", "venison", "lamb"],
+      "positive_terms": ["natural", "long lasting", "single protein", "traceable", "少加工", "可追溯"],
+      "negative_terms": ["odor", "splinter", "choking", "salmonella", "price", "异味", "碎裂"],
+      "factory_fit": ["新西兰", "柬埔寨", "中国"]
+    }
+  ],
+  "country_platforms": [
+    {"country": "美国", "platforms": ["Amazon", "Chewy", "Petco", "Walmart", "Costco"], "hot_categories": ["冻干", "洁齿", "训练奖励", "功能软咀嚼"]},
+    {"country": "英国", "platforms": ["Pets at Home", "Amazon UK", "zooplus UK", "bitiba UK"], "hot_categories": ["洁齿", "训练零食", "冻干猫零食", "天然咀嚼"]},
+    {"country": "德国", "platforms": ["Fressnapf", "zooplus", "bitiba", "Amazon DE"], "hot_categories": ["风干", "天然咀嚼", "洁齿", "功能零食"]},
+    {"country": "日本", "platforms": ["Rakuten", "Yahoo Shopping", "Amazon Japan", "AEON Pet"], "hot_categories": ["猫冻干", "鱼肉零食", "PETKISS 洁齿", "软质零食"]},
+    {"country": "韩国", "platforms": ["Coupang", "Naver Shopping", "Pet Friends"], "hot_categories": ["肉干", "冻干鸡胸肉", "湿零食", "洁齿"]},
+    {"country": "中国", "platforms": ["天猫", "京东", "抖音商城", "小红书", "拼多多"], "hot_categories": ["冻干", "猫条", "洁齿骨", "功能零食", "节日礼盒"]},
+    {"country": "东南亚", "platforms": ["Shopee", "Lazada", "TikTok Shop"], "hot_categories": ["猫冻干", "鸡肉/鱼肉零食", "猫条", "小包装"]},
+    {"country": "巴西", "platforms": ["Petlove", "Petz", "Mercado Livre", "Amazon Brazil", "Reclame Aqui"], "hot_categories": ["Dentalife", "肉条", "性价比零食", "天然咀嚼"]},
+    {"country": "中东/GCC", "platforms": ["Amazon UAE/Saudi", "Noon", "Carrefour", "Pets Delight"], "hot_categories": ["猫冻干", "猫零食", "洁齿", "高端进口"]},
+    {"country": "澳新", "platforms": ["Pet Circle", "Petstock", "Animates", "Amazon AU"], "hot_categories": ["风干", "鹿/羊/牛单一蛋白", "天然咀嚼"]}
+  ],
+  "geo_questions": [
+    "冻干宠物零食安全吗？",
+    "冻干和风干宠物零食有什么区别？",
+    "猫条是不是诱食剂很多？",
+    "宠物洁齿棒真的能清洁牙齿吗？",
+    "哪些狗零食适合小型犬或老年犬？",
+    "狗狗训练奖励零食怎么选？",
+    "单一蛋白宠物零食适合过敏宠物吗？",
+    "宠物零食一天能吃多少？",
+    "宠物零食里甘油、淀粉、胶体安全吗？",
+    "新西兰风干宠物零食为什么更贵？"
+  ]
+}
+

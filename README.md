@@ -16,6 +16,8 @@
 - `research/geo-ai-recommendation-audit.md`：品牌 GEO / AI 推荐度诊断问题体系、评分表和服务模块建议。
 - `research/petpal-geo-competitor-audit.md`：佩蒂股份、江苏康贝及自有品牌对标竞品的 GEO 预诊断。
 - `research/gpt-ai-recommendation-report.md`：GPT 单模型下的佩蒂/江苏康贝 AI 推荐度预诊断报告。
+- `data/deepseek_initial_audit.json`：DeepSeek API 初检结构化结果。
+- `scripts/run-deepseek-audit.mjs`：读取 `DEEPSEEK_API_KEY` 并生成 DeepSeek 初检 JSON 的本地脚本。
 - `data/pet_treats_market_2026.json`：结构化数据底稿。
 - `data/geo_product_signal_matrix.json`：面向 GEO 的产品信号、平台点评和 AI 推荐度结构化数据。
 - `assets/global-pet-treat-review-keyword-map.svg`：全球销售平台与社媒点评关键词证据图。
