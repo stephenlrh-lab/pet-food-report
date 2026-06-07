@@ -1,0 +1,185 @@
+{
+  "generated_at": "2026-06-08",
+  "scope": {
+    "primary_window": "2025-06-08 to 2026-06-08",
+    "extended_window": "2025-02-01 to 2026-06-08",
+    "note": "Patent publication timing has an inherent lag. The latest 3-month window may have few public pet-food-specific filings visible in public patent search."
+  },
+  "categories": [
+    {
+      "name": "洁齿与口腔护理",
+      "signals": ["软质洁齿咀嚼", "啃咬结构", "牙菌斑/牙结石控制", "可冻食/凝胶结构"],
+      "implication": "宠物零食工厂可关注硬度分级、口腔护理结构、适老/小型犬软质洁齿产品。"
+    },
+    {
+      "name": "适口性与风味增强",
+      "signals": ["湿粮适口性增强", "脂肪改性", "受体筛选", "低磷/低苦味配方"],
+      "implication": "适口性不只是香精问题，正在走向脂肪结晶、氨基酸/糖反应、受体筛选和低磷健康化。"
+    },
+    {
+      "name": "功能营养与微生态",
+      "signals": ["益生菌稳定性", "冷挤压/低温工艺", "D-甘露糖", "精准营养"],
+      "implication": "功能零食需要把活性成分稳定性、剂量、加工损耗和证据表达一起设计。"
+    },
+    {
+      "name": "替代蛋白与可持续",
+      "signals": ["植物蛋白", "培养肉", "昆虫蛋白水解物", "upcycled ingredients"],
+      "implication": "欧美新产品可能继续向低碳、非传统蛋白和可持续叙事发展，但法规和价格仍是门槛。"
+    },
+    {
+      "name": "包装与保鲜",
+      "signals": ["智能包装", "变色新鲜度指示", "氧化控制", "货架期"],
+      "implication": "冻干、风干和高脂零食可关注氧化、新鲜度可视化和高端包装。"
+    },
+    {
+      "name": "AI/模型化产品评价",
+      "signals": ["口腔护理性能预测", "产品特征建模", "kibble characteristic"],
+      "implication": "头部公司正在把配方、质构和功能效果转化为可建模指标，适合建立工厂内部测试数据库。"
+    }
+  ],
+  "patents": [
+    {
+      "publication": "US20250205030A1",
+      "title": "Edible soft dental chew and methods of using the same",
+      "assignee": "Alpine Pet Opco LLC",
+      "publication_date": "2025-06-26",
+      "jurisdiction": "US",
+      "category": "洁齿与口腔护理",
+      "url": "https://patents.google.com/patent/US20250205030A1/en",
+      "summary": "软质可食洁齿咀嚼产品，面向抑制牙菌斑和牙结石形成。",
+      "business_implication": "适合启发小型犬、老龄犬、低硬度洁齿零食；可转化为硬度分级、咀嚼安全和每日护理场景。",
+      "risk_note": "洁齿功效声称需检测支持，不能仅凭结构宣传。"
+    },
+    {
+      "publication": "US12419330B2",
+      "title": "Pet food compositions including probiotics and methods of manufacture and use thereof",
+      "assignee": "Assignee shown in patent record",
+      "publication_date": "2025-09-23",
+      "jurisdiction": "US",
+      "category": "功能营养与微生态",
+      "url": "https://patents.google.com/patent/US12419330B2/en",
+      "summary": "宠物食品中加入益生菌，并通过较温和加工改善益生菌稳定性。",
+      "business_implication": "功能冻干/软咀嚼产品要重点管理活菌稳定性、热加工损耗和储存稳定性。",
+      "risk_note": "益生菌功效和活菌数量需有检测和保质期数据支撑。"
+    },
+    {
+      "publication": "EP4616721A1",
+      "title": "Novel pet food composition",
+      "assignee": "Omni Pet Ltd",
+      "publication_date": "2025-09-17",
+      "jurisdiction": "EP",
+      "category": "替代蛋白与可持续",
+      "url": "https://patents.google.com/patent/EP4616721A1/en",
+      "summary": "包含植物蛋白、淀粉/面粉与培养肉成分的水性宠物食品组合物。",
+      "business_implication": "培养肉和植物蛋白混合宠食是高端和可持续叙事方向，可关注湿粮、猫食和高端零食。",
+      "risk_note": "培养肉法规、成本、消费者接受度和进口准入仍需单独评估。"
+    },
+    {
+      "publication": "WO2025176874A1",
+      "title": "Composition alimentaire appétente pour animaux",
+      "assignee": "Mars Inc",
+      "publication_date": "2025-08-28",
+      "jurisdiction": "WO",
+      "category": "适口性与风味增强",
+      "url": "https://patents.google.com/patent/WO2025176874A1/fr",
+      "summary": "面向犬猫的适口性食品组合物，兼顾营养质量和储存期间的适口性。",
+      "business_implication": "适口性与储存稳定性正在被一起设计，适合冻干/肉干产品做开袋气味和批次稳定控制。",
+      "risk_note": "适口性优势需要动物试吃或偏好测试支持。"
+    },
+    {
+      "publication": "EP4598371A1 / AU2023357845A1",
+      "title": "Palatability enhancement of dry pet foods by fat modification",
+      "assignee": "Société des Produits Nestlé S.A.",
+      "publication_date": "2025-08-13 / 2025-03-13",
+      "jurisdiction": "EP / AU",
+      "category": "适口性与风味增强",
+      "url": "https://patents.google.com/patent/AU2023357845A1/en",
+      "summary": "通过改性脂肪、液体 digest 和干燥 animal digest 提升干粮颗粒适口性。",
+      "business_implication": "干粮和烘焙/低温零食可关注脂肪结晶、表面涂层和开袋香气稳定性。",
+      "risk_note": "高脂产品需同步控制氧化、油耗味和包装阻隔。"
+    },
+    {
+      "publication": "US20250302072A1",
+      "title": "Pet food compositions",
+      "assignee": "Related family shown in patent record",
+      "publication_date": "2025-10-02",
+      "jurisdiction": "US",
+      "category": "功能营养与微生态",
+      "url": "https://patents.google.com/patent/EP3849334A1/en",
+      "summary": "宠物食品组合物家族的美国公开，涉及配方和营养组合方向。",
+      "business_implication": "主粮/功能粮企业持续围绕营养组合和体况管理建立专利组合。",
+      "risk_note": "需进一步读取权利要求确认具体保护范围。"
+    },
+    {
+      "publication": "WO2025116849A1",
+      "title": "Development of smart packaging comprising a color-changing indicator to monitor freshness/spoilage",
+      "assignee": "Patent record assignee",
+      "publication_date": "2025-06-05",
+      "jurisdiction": "WO",
+      "category": "包装与保鲜",
+      "url": "https://patents.google.com/patent/WO2025116849A1/en",
+      "summary": "用于监测易腐食品新鲜度/腐败的变色智能包装。",
+      "business_implication": "可作为宠物冻干、风干、高脂湿粮包装创新的相邻技术参考。",
+      "risk_note": "不是宠物食品专利，属于相邻包装技术。"
+    },
+    {
+      "publication": "WO2025090710A1",
+      "title": "Method for evaluating pet food compositions",
+      "assignee": "Hill's Pet Nutrition Inc",
+      "publication_date": "2025-05-01",
+      "jurisdiction": "WO",
+      "category": "AI/模型化产品评价",
+      "url": "https://patents.google.com/patent/WO2025090710A1/en",
+      "summary": "通过分析宠物食品颗粒特征并输入模型，预测其口腔护理表现。",
+      "business_implication": "提示头部企业正在把洁齿和口腔护理效果模型化；工厂可建立硬度、形状、磨擦、咀嚼时间数据集。",
+      "risk_note": "属于模型化评价方法，不等同于所有口腔护理声称均可直接使用。"
+    },
+    {
+      "publication": "US20250072456A1",
+      "title": "Wet pet food palatability enhancer, and wet pet food",
+      "assignee": "Unicharm Corp",
+      "publication_date": "2025-03-06",
+      "jurisdiction": "US",
+      "category": "适口性与风味增强",
+      "url": "https://patents.google.com/patent/US20250072456A1/en",
+      "summary": "湿粮适口性增强剂，减少磷含量、改善颜色和苦味问题。",
+      "business_implication": "猫条、湿零食、肉泥产品可关注低磷、低苦味和颜色稳定。",
+      "risk_note": "已超出严格 12 个月窗口，作为扩展观察保留。"
+    },
+    {
+      "publication": "US20250049079A1",
+      "title": "Screening methods using GPRC6A taste receptors and pet food products",
+      "assignee": "Patent record assignee",
+      "publication_date": "2025-02-13",
+      "jurisdiction": "US",
+      "category": "适口性与风味增强",
+      "url": "https://patents.google.com/patent/US20250049079A1/en",
+      "summary": "使用 GPRC6A 味觉受体进行筛选，并将筛选结果用于宠物食品产品和组合物。",
+      "business_implication": "适口性研发正在向受体筛选、机制化和高通量评价发展。",
+      "risk_note": "已超出严格 12 个月窗口，作为扩展观察保留。"
+    },
+    {
+      "publication": "US20250120418A1",
+      "title": "Pet food, methods and devices for producing pet food",
+      "assignee": "BTL Healthcare Technologies A.S.",
+      "publication_date": "2025-04-17",
+      "jurisdiction": "US",
+      "category": "替代蛋白与可持续",
+      "url": "https://patents.google.com/patent/US11771112B2/en",
+      "summary": "在替代蛋白/混合肉替代技术相关专利族中被引用的宠物食品生产方法和设备。",
+      "business_implication": "宠物食品与人食替代蛋白技术边界正在交叉，未来可能影响高端湿粮和可持续蛋白零食。",
+      "risk_note": "需要进一步打开具体公开文本核验权利要求。"
+    }
+  ],
+  "summary": {
+    "last_3_months": "Public search sample did not surface strong pet-food-specific publications in Mar-Jun 2026. This is consistent with patent publication lag and search-index lag.",
+    "last_12_months": "Key clusters are dental/oral care, palatability engineering, probiotic/functionality, alternative protein/cultivated meat, packaging freshness, and model-based product evaluation.",
+    "factory_actions": [
+      "Build internal testing data for hardness, chew time, breakage, palatability and oxidation.",
+      "For freeze-dried treats, combine low-fragment packaging, freshness preservation and single-protein claims.",
+      "For dental treats, split hardness by pet size and age; avoid unsupported dental efficacy claims.",
+      "For functional treats, document active ingredient stability after processing and during shelf life.",
+      "Track Nestlé, Mars, Hill's, Unicharm, Omni and cultivated-protein companies as patent signal owners."
+    ]
+  }
+}

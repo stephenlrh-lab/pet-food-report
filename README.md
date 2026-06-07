@@ -6,9 +6,12 @@
 
 双击 `index.html` 可查看动态报告页面。页面引用 GSAP CDN 动画库，因此联网时动画效果最好。
 
+单独打开 `patents.html` 可查看宠物食品专利情报展示页，用于判断是否并入正式报告。
+
 ## 文件说明
 
 - `index.html`：用于客户演示、内部评审或远程查看的动态 HTML 报告。
+- `patents.html`：宠物食品专利情报地图，展示 2025-2026 公开专利样本、技术分类和研发启发。
 - `research/report.md`：完整中文调研报告。
 - `research/keywords.md`：多语言检索关键词库。
 - `research/sources.md`：来源地图与检索笔记。
@@ -16,7 +19,9 @@
 - `research/geo-ai-recommendation-audit.md`：品牌 GEO / AI 推荐度诊断问题体系、评分表和服务模块建议。
 - `research/petpal-geo-competitor-audit.md`：佩蒂股份、江苏康贝及自有品牌对标竞品的 GEO 预诊断。
 - `research/gpt-ai-recommendation-report.md`：GPT 单模型下的佩蒂/江苏康贝 AI 推荐度预诊断报告。
+- `research/patent-landscape.md`：宠物食品专利情报文字版摘要和后续扩展建议。
 - `data/deepseek_initial_audit.json`：DeepSeek API 初检结构化结果。
+- `data/pet_food_patents_2025_2026.json`：宠物食品专利样本结构化数据。
 - `scripts/run-deepseek-audit.mjs`：读取 `DEEPSEEK_API_KEY` 并生成 DeepSeek 初检 JSON 的本地脚本。
 - `data/pet_treats_market_2026.json`：结构化数据底稿。
 - `data/geo_product_signal_matrix.json`：面向 GEO 的产品信号、平台点评和 AI 推荐度结构化数据。

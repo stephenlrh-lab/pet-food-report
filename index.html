@@ -504,6 +504,75 @@
       color: var(--muted);
     }
 
+    .patent-bars {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .patent-row {
+      display: grid;
+      grid-template-columns: 180px minmax(0, 1fr) 36px;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      color: #33423a;
+    }
+
+    .patent-track {
+      height: 18px;
+      border-radius: 999px;
+      background: #f0ece3;
+      overflow: hidden;
+    }
+
+    .patent-fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--leaf), var(--amber));
+    }
+
+    .patent-cluster {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .patent-cluster .card h3 {
+      font-size: 20px;
+    }
+
+    .patent-card {
+      display: grid;
+      gap: 10px;
+    }
+
+    .patent-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .patent-meta span {
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: var(--soft-ocean);
+      color: #234d75;
+    }
+
+    .patent-note {
+      border-left: 4px solid var(--leaf);
+      background: #f6f7f1;
+      padding: 10px 12px;
+      color: #34423a;
+      margin: 0;
+    }
+
     @media (max-width: 920px) {
       .shell { grid-template-columns: 1fr; }
       aside {
@@ -520,6 +589,8 @@
       .brand-compare { grid-template-columns: 1fr; }
       .diagnostic-grid { grid-template-columns: 1fr; }
       .scoring-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .patent-cluster { grid-template-columns: 1fr; }
+      .patent-row { grid-template-columns: 120px minmax(0, 1fr) 34px; }
       .score-row { grid-template-columns: 1fr; gap: 6px; }
       .source-list { columns: 1; }
       .matrix { display: block; overflow-x: auto; }
@@ -553,6 +624,7 @@
         <a href="#geo">GEO 诊断</a>
         <a href="#gpt-audit">GPT 初检</a>
         <a href="#deepseek-audit">DeepSeek 初检</a>
+        <a href="#patents">专利情报</a>
         <a href="#factory">四地工厂</a>
         <a href="#concepts">新品建议</a>
         <a href="#sources">关键来源</a>
@@ -1053,8 +1125,100 @@
         </div>
       </section>
 
+      <section class="reveal" id="patents">
+        <div class="eyebrow">11 · Patent Landscape</div>
+        <h2>专利情报：适口性、功能营养和模型化评价正在升温</h2>
+        <p class="lead">公开专利样本显示，过去一年宠物食品研发信号主要集中在适口性工程、益生菌稳定、软质洁齿、替代蛋白、智能包装和模型化产品评价。该章节用于把“市场热度”翻译成研发方向、工艺控制和可验证内容资产。</p>
+        <div class="grid">
+          <article class="card">
+            <div class="stat">6</div>
+            <h3>技术聚类</h3>
+            <p class="muted">适口性、微生态、洁齿、替代蛋白、包装保鲜、模型化评价。</p>
+          </article>
+          <article class="card">
+            <div class="stat">11</div>
+            <h3>公开样本</h3>
+            <p class="muted">演示版纳入 2025-02 至 2026-06 的公开专利和相邻技术样本。</p>
+          </article>
+          <article class="card">
+            <div class="stat">12M</div>
+            <h3>重点窗口</h3>
+            <p class="muted">近 3 个月公开样本较少，符合专利公开和数据库收录滞后特征。</p>
+          </article>
+          <article class="score-panel">
+            <h3>技术方向热度</h3>
+            <div class="patent-bars">
+              <div class="patent-row"><strong>适口性与风味增强</strong><div class="patent-track"><span class="patent-fill" style="width:100%"></span></div><span>4</span></div>
+              <div class="patent-row"><strong>功能营养与微生态</strong><div class="patent-track"><span class="patent-fill" style="width:50%"></span></div><span>2</span></div>
+              <div class="patent-row"><strong>替代蛋白与可持续</strong><div class="patent-track"><span class="patent-fill" style="width:50%"></span></div><span>2</span></div>
+              <div class="patent-row"><strong>洁齿与口腔护理</strong><div class="patent-track"><span class="patent-fill" style="width:25%"></span></div><span>1</span></div>
+              <div class="patent-row"><strong>包装与保鲜</strong><div class="patent-track"><span class="patent-fill" style="width:25%"></span></div><span>1</span></div>
+              <div class="patent-row"><strong>模型化产品评价</strong><div class="patent-track"><span class="patent-fill" style="width:25%"></span></div><span>1</span></div>
+            </div>
+          </article>
+          <div class="patent-cluster">
+            <article class="card">
+              <h3>适口性与风味增强</h3>
+              <p class="muted">Mars、Nestlé、Unicharm 等公开样本显示，适口性不再只是香味表达，而是脂肪改性、湿粮增强剂、受体筛选、低苦味和储存稳定性的组合工程。</p>
+              <span class="tag">冻干</span><span class="tag">肉干</span><span class="tag">猫条/肉泥</span>
+            </article>
+            <article class="card">
+              <h3>功能营养与微生态</h3>
+              <p class="muted">益生菌宠食公开样本提示，功能零食需要同步管理活性成分、加工损耗、保质期稳定性和可表达证据。</p>
+              <span class="tag">益生菌</span><span class="tag">低温工艺</span><span class="tag">货架期数据</span>
+            </article>
+            <article class="card">
+              <h3>AI/模型化产品评价</h3>
+              <p class="muted">Hill's 口腔护理评价方法显示，头部企业正在把颗粒特征、质构、形状和功能结果转为可建模指标。</p>
+              <span class="tag">硬度</span><span class="tag">咀嚼时间</span><span class="tag">碎裂率</span>
+            </article>
+          </div>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>US · 2025-06-26</span><span>洁齿与口腔护理</span></div>
+            <h3><a href="https://patents.google.com/patent/US20250205030A1/en" target="_blank" rel="noopener">US20250205030A1 · Edible soft dental chew</a></h3>
+            <p class="muted">软质可食洁齿咀嚼产品，面向抑制牙菌斑和牙结石形成。</p>
+            <p class="patent-note">启发：小型犬、老龄犬和低硬度洁齿零食可做硬度分级、每日护理和咀嚼安全场景。</p>
+          </article>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>WO · 2025-08-28</span><span>适口性与风味增强</span></div>
+            <h3><a href="https://patents.google.com/patent/WO2025176874A1/fr" target="_blank" rel="noopener">WO2025176874A1 · Palatable animal food composition</a></h3>
+            <p class="muted">面向犬猫的适口性食品组合物，兼顾营养质量和储存期间的适口性。</p>
+            <p class="patent-note">启发：冻干和肉干产品可把开袋气味、批次稳定和储存后适口性作为研发指标。</p>
+          </article>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>EP/AU · 2025</span><span>适口性与风味增强</span></div>
+            <h3><a href="https://patents.google.com/patent/AU2023357845A1/en" target="_blank" rel="noopener">AU2023357845A1 · Fat modification for palatability</a></h3>
+            <p class="muted">通过改性脂肪、液体 digest 和干燥 animal digest 提升干粮颗粒适口性。</p>
+            <p class="patent-note">启发：烘焙、低温和干型零食应关注脂肪结晶、表面涂层、香气稳定和氧化控制。</p>
+          </article>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>US · 2025-09-23</span><span>功能营养与微生态</span></div>
+            <h3><a href="https://patents.google.com/patent/US12419330B2/en" target="_blank" rel="noopener">US12419330B2 · Probiotic pet food compositions</a></h3>
+            <p class="muted">宠物食品中加入益生菌，并通过较温和加工改善益生菌稳定性。</p>
+            <p class="patent-note">启发：功能冻干和软咀嚼产品要建立活菌留存率、加工损耗和保质期测试数据。</p>
+          </article>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>EP · 2025-09-17</span><span>替代蛋白与可持续</span></div>
+            <h3><a href="https://patents.google.com/patent/EP4616721A1/en" target="_blank" rel="noopener">EP4616721A1 · Novel pet food composition</a></h3>
+            <p class="muted">包含植物蛋白、淀粉/面粉与培养肉成分的水性宠物食品组合物。</p>
+            <p class="patent-note">启发：培养肉与植物蛋白混合宠食可支撑高端、可持续和新蛋白叙事。</p>
+          </article>
+          <article class="card patent-card">
+            <div class="patent-meta"><span>WO · 2025-05-01</span><span>模型化产品评价</span></div>
+            <h3><a href="https://patents.google.com/patent/WO2025090710A1/en" target="_blank" rel="noopener">WO2025090710A1 · Evaluating pet food compositions</a></h3>
+            <p class="muted">通过分析宠物食品颗粒特征并输入模型，预测其口腔护理表现。</p>
+            <p class="patent-note">启发：工厂可建立硬度、形状、磨擦、咀嚼时间和碎裂率测试数据库。</p>
+          </article>
+          <article class="card full">
+            <h3>对佩蒂 / 江苏康贝的转化建议</h3>
+            <p>把专利情报转成研发动作：建立硬度、咀嚼时间、碎裂率、适口性和氧化稳定性的内部测试数据库；冻干零食组合低碎率包装、新鲜度保护和单一蛋白声称；洁齿零食按犬型、年龄和硬度分层；功能零食记录活性成分加工后留存率和货架期稳定性。</p>
+            <p class="footer-note">说明：本章节为公开专利情报摘要，不构成侵权分析、法律意见或 FTO 自由实施意见。完整专利展示页可单独打开 <a href="patents.html">patents.html</a>。</p>
+          </article>
+        </div>
+      </section>
+
       <section class="reveal" id="factory">
-        <div class="eyebrow">11 · Factory Matrix</div>
+        <div class="eyebrow">12 · Factory Matrix</div>
         <h2>温州、泰州、越南、柬埔寨、新西兰应形成互补</h2>
         <table class="matrix">
           <thead>
@@ -1107,7 +1271,7 @@
       </section>
 
       <section class="reveal" id="concepts">
-        <div class="eyebrow">12 · Product Concepts</div>
+        <div class="eyebrow">13 · Product Concepts</div>
         <h2>建议先做 5 条样品线验证</h2>
         <div class="grid">
           <article class="card wide"><h3>新西兰单一蛋白风干训练粒</h3><p>面向欧美、日韩、中国高端犬主。验证适口性、碎裂率、氧化气味和单位克价接受度。</p></article>
@@ -1119,7 +1283,7 @@
       </section>
 
       <section class="reveal" id="sources">
-        <div class="eyebrow">13 · Sources</div>
+        <div class="eyebrow">14 · Sources</div>
         <h2>关键来源</h2>
         <ul class="source-list">
           <li><a href="https://www.grandviewresearch.com/industry-analysis/pet-snacks-treats-market-report" target="_blank" rel="noreferrer">Grand View Research: Pet Snacks And Treats Market</a></li>
@@ -1138,6 +1302,12 @@
           <li><a href="https://m.coupang.com/nm/plp/528078" target="_blank" rel="noreferrer">Coupang Korea: Dog Treats</a></li>
           <li><a href="https://www.petlove.com.br/snacks-retriever-tablete-carne-3106518/p" target="_blank" rel="noreferrer">Petlove Brazil: Product Review Example</a></li>
           <li><a href="https://www.noon.com/uae-en/freeze-bites-chicken-cat-treat-15grams/N26720626A/p/" target="_blank" rel="noreferrer">Noon UAE: Cat Treat Example</a></li>
+          <li><a href="https://patents.google.com/patent/US20250205030A1/en" target="_blank" rel="noreferrer">Google Patents: US20250205030A1 Edible Soft Dental Chew</a></li>
+          <li><a href="https://patents.google.com/patent/WO2025176874A1/fr" target="_blank" rel="noreferrer">Google Patents: WO2025176874A1 Palatable Animal Food Composition</a></li>
+          <li><a href="https://patents.google.com/patent/AU2023357845A1/en" target="_blank" rel="noreferrer">Google Patents: AU2023357845A1 Palatability Enhancement by Fat Modification</a></li>
+          <li><a href="https://patents.google.com/patent/US12419330B2/en" target="_blank" rel="noreferrer">Google Patents: US12419330B2 Probiotic Pet Food Compositions</a></li>
+          <li><a href="https://patents.google.com/patent/EP4616721A1/en" target="_blank" rel="noreferrer">Google Patents: EP4616721A1 Novel Pet Food Composition</a></li>
+          <li><a href="https://patents.google.com/patent/WO2025090710A1/en" target="_blank" rel="noreferrer">Google Patents: WO2025090710A1 Evaluating Pet Food Compositions</a></li>
         </ul>
         <p class="footer-note">完整数据来源见 `research/sources.md`，平台点评和 GEO 模板见 `research/platform-review-map.md` 与 `research/geo-ai-recommendation-audit.md`。本报告用于市场和产品方向判断，不替代法规、兽医营养或出口合规审查。</p>
       </section>
